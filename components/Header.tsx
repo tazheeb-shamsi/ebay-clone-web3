@@ -17,7 +17,7 @@ function Header({}: Props) {
   const address = useAddress();
 
   return (
-    <div className="max-w-6xl mx-auto p-2">
+    <div className="max-w-12xl mx-auto px-6">
       <nav className=" flex justify-between">
         <div className="felx items-center space-x-4 text-sm">
           {address ? (
@@ -46,7 +46,7 @@ function Header({}: Props) {
       </nav>
       <hr className="mt-2" />
 
-      <section className="flex items-center space-x-2 py-5 ">
+      <section className="flex items-center space-x-3 py-5 justify-center">
         <div className="h-16 w-16 sm:w-28 md:w-44 cursor-pointer flex-shrink-0">
           <Link href="/">
             <Image
