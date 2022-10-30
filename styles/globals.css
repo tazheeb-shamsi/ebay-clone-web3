@@ -14,4 +14,7 @@
   .card {
     @apply border border-gray-200 rounded-md p-5 bg-gray-50 cursor-pointer hover:bg-gray-100;
   }
+  .formField{
+    @apply border-2 border-gray-300 rounded-sm px-3 pr-16 h-10 bg-gray-50 text-sm outline-none
+  }
 }

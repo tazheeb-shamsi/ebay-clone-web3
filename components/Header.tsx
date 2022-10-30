@@ -74,7 +74,7 @@ function Header({}: Props) {
         <button className="hidden sm:inline bg-blue-600 text-white px-5 md:px-10 py-2 border-2 border-blue-600">
           Search
         </button>
-        <Link href="/create">
+        <Link href="/listItem">
           <button className="px-5 border-2 border-blue-600 md:px-10 py-2 text-blue-600 hover:bg-blue-600/50 hover:text-white cursor-pointer">
             List Item
           </button>
